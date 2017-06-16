@@ -26,10 +26,11 @@
     left: 0;
     width: 200px;
     /*height: 170px;*/
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-color: #EEF0EB;
     font-size: 12px;
     text-align: center;
-    color: #fff;
+    color: #757575;
     border-radius: 5px;
 }
 .datepicker .datechose .change{
@@ -73,7 +74,8 @@
 }
 
 .datepicker .datechose table tbody td.selected {
-    background-color: hotpink;
+    background-color: #49A895;
+    color:#fff;
 }
 .datepicker .datechose table tbody td.preMonth {
     color: #b77f7f;
@@ -83,6 +85,6 @@
 }
 
 .datepicker .datechose table tbody td:hover {
-    background-color: green;
+    background-color: #98d298;
     cursor: pointer;
 }
